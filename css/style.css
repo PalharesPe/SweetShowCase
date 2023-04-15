@@ -6,7 +6,7 @@ body{
     border:0
     }
 body{
-    
+    height: 1080px;
     background-color: rgb(207, 91, 115);
 }
 .topo{
@@ -93,8 +93,40 @@ body{
     color: rgb(22, 21, 21);
 }
 
-
-
+.sobre{
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;    
+    
+}
+.contato{
+    color: rgb(199, 13, 13);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    text-decoration: none;
+       
+    
+}
+.contato a{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(245, 243, 240);
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    border: 1px solid;
+    border-color: rgb(221, 90, 153);
+    display: inline-block;
+    
+}
+.contato a:hover{    
+    
+    background-color: rgb(156, 51, 100);
+}
 
 
 
@@ -103,11 +135,11 @@ body{
 footer {
     font-family: 'Courier New', Courier, monospace;
     width: 100%;
-    margin: -12px;
+    padding: 5px;    
     text-align: center;
     background: #1a1919ea;
     color: #ffffff9d;
-    
+    box-sizing: border-box;
     font-size: 12px;
     position: fixed;
     bottom: 0;
